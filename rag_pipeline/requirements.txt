@@ -1,0 +1,22 @@
+# Core HTTP / HTML parsing
+requests
+beautifulsoup4
+
+# LangChain & LLM tooling
+langchain
+openai
+langchain-openai
+langchain-community
+
+# Vector store & embeddings
+faiss-cpu  # use faiss-gpu if you have CUDA/GPU
+
+# Utilities
+numpy
+pandas
+streamlit
+python-dotenv
+tqdm
+
+# Optional (install only if needed)
+# ollama  # install if you use Ollama local models / embeddings
