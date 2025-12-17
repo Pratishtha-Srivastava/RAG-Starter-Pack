@@ -1,6 +1,6 @@
 # RAG Pipeline — README
 
-⚡️ **Overview**
+**Overview**
 
 This repository contains small Retrieval-Augmented Generation (RAG) pipelines and example chatbots that:
 - scrape website content or load CSVs
@@ -87,16 +87,3 @@ python generate_dataset_csv.py
 - If scraping returns no content, try another URL or install `lxml` / use Playwright for JS-heavy sites.
 - The scripts expect `OPENAI_API_KEY` to be set. For local development you can use `python-dotenv` and a `.env` file, but never commit real keys.
 - The code prints a few debug snippets (examples and embeddings) which are useful during development — be careful if you run this with sensitive data.
-
----
-
-## Want me to help more? 🔧
-
-I can:
-
-- add a `.env.example` file with placeholders
-- standardize key loading (use `python-dotenv` + fail-fast)
-- replace debug prints with `logging` and optional redaction
-- add a secret-scanning pre-commit hook or GitHub Action
-
-Tell me which of the above you'd like and I'll make the changes.
